@@ -1,0 +1,32 @@
+.praticas {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+
+article {
+  padding: 20px;
+  width: 100%;
+  height: 120%;
+}
+
+.titulopraticas {
+  text-align: center;
+  color: var(--verde);
+  font-size: 25px;
+  margin: 30px;
+}
+
+.praticas h2 {
+  text-align: center;
+  color: var(--verde);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.praticas p {
+  text-align: center;
+  color: var(--verde);
+  font-size: 14px;
+  text-align: justify;
+}

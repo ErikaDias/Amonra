@@ -1,0 +1,83 @@
+/* Redes Sociais */
+
+.redesocial {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 80px;
+  text-align: center;
+}
+
+div h2 {
+  color: var(--verde);
+  font-size: 16px;
+}
+
+.botaoredesocial {
+  width: 100px;
+  padding: 5px;
+  background: var(--verde);
+  color: var(--branco);
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.botaoredesocial:hover {
+  background: #9da58f;
+}
+
+/* Formulario */
+
+.form-group {
+  margin: 20px auto;
+}
+
+.contato {
+  text-align: center;
+  color: var(--verde);
+  font-size: 22px;
+}
+
+.formulario {
+  max-width: 470px;
+  display: block;
+  margin: 0 auto;
+}
+
+.legenda {
+  text-align: center;
+  color: var(--verde);
+  font-size: 16px;
+}
+
+.label {
+  font-size: 12px;
+  display: block;
+  font-weight: bold;
+  margin: 20px auto;
+  max-width: 360px;
+  color: var(--verde);
+}
+
+.input {
+  display: block;
+  margin: 5px 0;
+  padding: 15px 5%;
+  border: 1px solid var(--verde);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  padding: 15px;
+  background: var(--verde);
+  border: 1px solid var(--verde);
+  border-radius: 5px;
+  color: var(--branco);
+  cursor: pointer;
+}

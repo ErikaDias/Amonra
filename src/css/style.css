@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font: 12px Lato, Arial, sans-serif;
+}
+
+:root {
+  --verde: #7d8570;
+  --branco: #ffffff;
+}
+
+hr {
+  /** Linha abaixo do menu **/
+  border-top: 0.1px solid #f3f3f3;
+}
